@@ -4,5 +4,6 @@
   "azureFunctions.projectLanguage": "JavaScript",
   "azureFunctions.projectRuntime": "~3",
   "debug.internalConsoleOptions": "neverOpen",
-  "azureFunctions.preDeployTask": "npm prune"
+  "azureFunctions.preDeployTask": "npm prune",
+  "cmake.sourceDirectory": "/home/vandi/CODE/Microsoft_Challenges/my-static-web-app-and-api/react-app/node_modules/nan"
 }
