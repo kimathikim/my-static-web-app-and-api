@@ -1,6 +1,6 @@
-const data = require('.../shared/product-data.js')
+const data = require('../shared/product-data');
 
-module.exports = asyc function (context, req) {
+module.exports = async function(context, req) {
   try {
     const products = data.getProducts();
     context.res.status(200).json(products);
